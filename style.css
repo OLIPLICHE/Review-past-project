@@ -10,10 +10,11 @@ body {
   list-style-type: none;
   cursor: pointer;
 }
+
 .links a {
   text-decoration: none;
   height: 2em;
-  padding:0.5em 1em;
+  padding: 0.5em 1em;
 }
 
 .links a:hover {
@@ -21,6 +22,7 @@ body {
   height: 2em;
   color: rgb(62, 151, 96);
 }
+
 #navbar {
   display: flex;
   justify-content: flex-end;
@@ -28,13 +30,32 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff;   
+  background: #fff;
+}
+
+.welcome-wrapper a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(231, 116, 39);
+  font-size: 1.2em;
+}
+
+#contact-links a {
+  color: rgb(231, 116, 39);
+  font-weight: 600;
+  margin: 15px 30px;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
 }
 
 #navbar a {
   color: rgb(231, 116, 39);
   font-weight: 700;
 }
+
 #navbar a:hover {
   color: rgb(99, 96, 96);
 }
@@ -50,7 +71,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;  
+  color: #fff;
 }
 
 .welcome-wrapper {
@@ -68,31 +89,24 @@ body {
   margin-bottom: 0;
 }
 
-.welcome-wrapper a {
-  text-decoration: none;
-  cursor: pointer;
-  color: rgb(231, 116, 39);
-  font-size: 1.2em;
-}
-
 h2 {
   padding-left: 20px;
 }
 
 .projects {
-margin:0 auto;
-background-color: rgb(245, 240, 240);
-text-align: center;
+  margin: 0 auto;
+  background-color : rgb(245, 240, 240);
+  text-align: center;
 }
 
 .project {
-  display:flex;
+  display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap : wrap;
 }
 
 .project .project-tile {
-  flex:0 1 350px;
+  flex: 0 1 350px;
   box-shadow: 0 0 4px rgb(126, 124, 124);
   padding: 0;
   border: 1px solid rgb(143, 141, 141);
@@ -100,7 +114,7 @@ text-align: center;
   border-radius: 5px;
   text-decoration: none;
   color: rgb(37, 37, 37);
-  font-weight: 700;   
+  font-weight: 700;
 }
 
 .project .project-tile p {
@@ -142,20 +156,9 @@ text-align: center;
 }
 
 #contact-links {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
- 
-#contact-links a {
-  color: rgb(231, 116, 39);
-  font-weight: 600;
-  margin:15px 30px;
-  padding: 5px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  font-size: 1.3em;
 }
 
 #contact-links a:hover {
@@ -168,17 +171,18 @@ text-align: center;
 
 @media (max-width:600px) {
   .projects img {
-     width: 306px;
+    width: 306px;
   }
 
   #welcome-section{
-     text-align: center;
+    text-align: center;
   }
 
   #profile-link {
-    width:45%;
+    width: 45%;
   }
   #contact-links a {
     font-size: 1em;
   }
+
 }
