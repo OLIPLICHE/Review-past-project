@@ -11,6 +11,13 @@ body {
   cursor: pointer;
 }
 
+.welcome-wrapper a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(231, 116, 39);
+  font-size: 1.2em;
+}
+
 .links a {
   text-decoration: none;
   height: 2em;
@@ -31,13 +38,6 @@ body {
   left: 0;
   width: 100%;
   background: #fff;
-}
-
-.welcome-wrapper a {
-  text-decoration: none;
-  cursor: pointer;
-  color: rgb(231, 116, 39);
-  font-size: 1.2em;
 }
 
 #contact-links a {
@@ -169,8 +169,7 @@ h2 {
   margin-right: 10px;
 }
 
-@media (max-width:600px) {
-
+@media (max-width: 600px) {
   .projects img {
     width: 306px;
   }
