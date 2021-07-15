@@ -1,0 +1,184 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+.links a {
+  text-decoration: none;
+  height: 2em;
+  padding:0.5em 1em;
+}
+
+.links a:hover {
+  text-decoration: none;
+  height: 2em;
+  color: rgb(62, 151, 96);
+}
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;   
+}
+
+#navbar a {
+  color: rgb(231, 116, 39);
+  font-weight: 700;
+}
+#navbar a:hover {
+  color: rgb(99, 96, 96);
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://2bleo.github.io/Enmanuel-Tolibjon/assets/joan-gamell-ZS67i1HLllo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;  
+}
+
+.welcome-wrapper {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.welcome-wrapper h1 {
+  margin-bottom: 0;
+}
+
+.welcome-wrapper a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(231, 116, 39);
+  font-size: 1.2em;
+}
+
+h2 {
+  padding-left: 20px;
+}
+
+.projects {
+margin:0 auto;
+background-color: rgb(245, 240, 240);
+text-align: center;
+}
+
+.project {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project .project-tile {
+  flex:0 1 350px;
+  box-shadow: 0 0 4px rgb(126, 124, 124);
+  padding: 0;
+  border: 1px solid rgb(143, 141, 141);
+  margin: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+  font-weight: 700;   
+}
+
+.project .project-tile p {
+  text-align: center;
+}
+
+.projects img {
+  width: 480px;
+  height: 300px;
+}
+
+#profile-link {
+  text-align: center;
+  width: 10%;
+  background-color: crimson;
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+#Contact {
+  background-color: rgb(95, 95, 95);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+#contact-title {
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+#github-link img {
+  width: 35px;
+  height: auto;
+}
+
+#contact-links {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+#contact-links a {
+  color: rgb(231, 116, 39);
+  font-weight: 600;
+  margin:15px 30px;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+#contact-links a:hover {
+  color: #fff;
+}
+
+#contact-links img {
+  margin-right: 10px;
+}
+
+@media (max-width:600px) {
+  .projects img {
+     width: 306px;
+  }
+
+  #welcome-section{
+     text-align: center;
+  }
+
+  #profile-link {
+    width:45%;
+  }
+  #contact-links a {
+    font-size: 1em;
+  }
+}
